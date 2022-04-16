@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './App.css';
 import EmailBuilderDemo from './Components/EmailBuilderDemo/EmailBuilderDemo';
 import Overview from './Components/Overview/Overview';
+import BackgroundRemover from './Components/BackgroundRemover/BackgroundRemover';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
               <Switch>
                   <Route exact path="/">
                       <Overview/>
+                      <BackgroundRemover/>
                   </Route>
                   <Route exact path="/email-builder-demo">
                       <EmailBuilderDemo/>
