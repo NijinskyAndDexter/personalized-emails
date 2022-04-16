@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Serif Display';
+  src: url('./fonts/DMSerifDisplay-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('./fonts/PoiretOne-Regular.ttf');
+  font-display: swap;
+}

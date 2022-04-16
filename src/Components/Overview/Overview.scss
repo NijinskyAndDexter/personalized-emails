@@ -1,0 +1,25 @@
+.Overview {
+  &__container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2rem;
+  }
+
+  &__title {
+    font-family: 'Serif Display';
+    font-size: 5rem;
+    color: #100018;
+    // color: white;
+    padding: 0 3rem;
+    margin: 0;
+    align-self: end;
+  }
+
+  &__stepLabel {
+    font-family: 'Poiret One';
+    font-size: 1.2rem;
+  }
+}
